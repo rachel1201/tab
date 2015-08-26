@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
+    <title>baidu</title>
+    <link rel="stylesheet" type="text/css" href="css/tabchose.css">
+</head>
+<body>
+	<div class="container">
+		<ul class="header-container" onclick="changeItem(event)">
+			<li class="hidden">
+				<a key="happy" href="#" class="play" id="initalDom">爱玩</a>
+				<div key="happy" class=" hide triangle">&nbsp</div>
+			</li>
+			<li class="hidden">
+				<a key="sweet" href="#" class="play">奋斗</a>
+				<div key="sweet" class="hide">&nbsp</div>
+			</li>
+			<li class="hidden">
+				<a key="crazy" href="#" class="play">求包养</a>
+				<div key="crazy" class="hide">&nbsp</div>
+			</li>
+		</ul>
+		<div class="content-container content-containershow" val="happy" >
+			<img src="img/hardworking.png" class="girl">
+			<p class="discribe">豆豆女：黑夜给了我黑色的眼睛，我却用它寻找光明...</p>
+		</div>
+		<div class="content-container" val="sweet" >
+			<img src="img/play.png" class="girl">
+			<p class="discribe">乖乖女:Never frown,even when you are sad,because you never know who is falling in love with your smile</p>
+		</div>
+		<div class="content-container" val="crazy" >
+			<img src="img/givemoney.png" class="girl">
+			<p class="discribe">疯疯女：爱玩、爱笑、爱闹...</p>
+		</div>
+	</div>
+    <script src="js/tabchose.js" type="text/javascript"></script>
+</body>
+</html>
